@@ -11,3 +11,49 @@
 #delete-form{
   display: inline;
 }
+
+.form-group{
+  padding: 20px;
+}
+
+.form-control{
+  margin-bottom: 20px;
+}
+
+.navbar-default, header.jumbotron{
+  z-index: 1;
+  background: rgba(0,0,0,0.1);
+  border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  color: white;
+  font-size: 17px;
+  margin: auto 0px;
+  padding: 10px auto;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  border-bottom: 1px solid rgb(119,136,153);
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+.navbar-default .navbar-brand:hover{
+  color: #000;
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+
+div.caption>h4{
+  color: black;
+  font-weight: 500;
+}
+
+body{
+  background: url("https://images.unsplash.com/photo-1492648272180-61e45a8d98a7?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=") no-repeat;
+  /* For sticking the background image to header and footer */
+  background-attachment: fixed;
+  background-size: cover;
+	background-position: center;
+  font-family: 'Lato', sans-serif;
+}
