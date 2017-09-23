@@ -18,7 +18,8 @@ var campgroundRoute = require("./routes/campground"),
     indexRoute      = require("./routes/index");
 
 // USING IMPORTANT THINGS
-mongoose.connect("mongodb://localhost/yelp_camp");
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
+mongoose.connect(url);
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.use(methodOveride("_method"));
