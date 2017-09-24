@@ -1,8 +1,27 @@
+.row.text-center .thumbnail img{
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+}
+.row.text-center .thumbnail{
+	border: 0px;
+  padding: 0;
+	height: 250px;
+}
 .thumbnail img{
   width: 100%;
 }
 .thumbnail{
   padding: 0;
+}
+div.caption{
+	padding: 0;
+	margin: 0;
+	height: 60px;
+}
+div.caption>h4{
+	padding: 0px auto;
+	margin: 0;
 }
 .caption-full{
   padding: 9px;
@@ -20,6 +39,19 @@
   margin-bottom: 20px;
 }
 
+#newCamp{
+  width: 50%; 
+	margin: 10px auto;
+}
+
+#newCamp .form-group, h1{
+	padding: 0.6em;
+}
+#newCamp h3>a{
+	border-radius: 5px;
+	background: #F8F8FF;
+	color: black;
+}
 .navbar-default, header.jumbotron{
   z-index: 1;
   background: rgba(0,0,0,0.1);
@@ -50,6 +82,7 @@ div.caption>h4{
 }
 
 body{
+	padding-top: 65px;
   background: url("https://images.unsplash.com/photo-1492648272180-61e45a8d98a7?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=") no-repeat;
   /* For sticking the background image to header and footer */
   background-attachment: fixed;
