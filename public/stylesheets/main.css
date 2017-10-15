@@ -1,3 +1,8 @@
+legend{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
 .row.text-center .thumbnail img{
 	object-fit: cover;
 	width: 100%;
@@ -47,11 +52,13 @@ div.caption>h4{
 #newCamp .form-group, h1{
 	padding: 0.6em;
 }
+
 #newCamp h3>a{
 	border-radius: 5px;
 	background: #F8F8FF;
 	color: black;
 }
+
 .navbar-default, header.jumbotron{
   z-index: 1;
   background: rgba(0,0,0,0.1);
@@ -59,7 +66,7 @@ div.caption>h4{
 }
 
 .navbar-default .navbar-nav>li>a, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-  color: white;
+  color: black;
   font-size: 17px;
   margin: auto 0px;
   padding: 10px auto;
