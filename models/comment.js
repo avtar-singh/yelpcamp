@@ -8,7 +8,8 @@ var commentSchema = mongoose.Schema({
       ref: "User"
     },
     username: String
-  }
+  },
+  rating: String
 });
 
 module.exports = mongoose.model("Comment", commentSchema);

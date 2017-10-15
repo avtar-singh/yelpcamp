@@ -40,6 +40,7 @@
               <span class="pull-right">4 Days Ago</span>
             <p>
               <%= comment.text %>
+              <span class="pull-right"><%= comment.rating %></span>
             </p>
             <% if(currentUser && comment.author.id.equals(currentUser._id)){ %>
               <a class="btn btn-warning btn-xs " 

@@ -83,10 +83,5 @@ div.caption>h4{
 
 body{
 	padding-top: 65px;
-  background: url("https://images.unsplash.com/photo-1492648272180-61e45a8d98a7?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=") no-repeat;
-  /* For sticking the background image to header and footer */
-  background-attachment: fixed;
-  background-size: cover;
-	background-position: center;
   font-family: 'Lato', sans-serif;
 }
